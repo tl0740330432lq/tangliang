@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{margin:0;padding: 0;}
+		td{width: 200px;text-align: center;}
+		.btn{background-color:red;width: 50px;display: block;text-align: center; }
+		
+		#box{width: 300px;height: 220px;background: #000033;position: absolute;left:337px;top:90px;color: #fff;display: none;}
+		#box a.del{color: #fff;position: absolute;left:30%;bottom: 10px; }
+		a.nodel{color: #fff;position: absolute;left:50%;bottom: 10px;}
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<table border="1" cellspacing="0">
+			<thead>
+				<tr>
+					<td>商品</td>
+					<td>价格</td>
+					<td>数量</td>
+					<td>操作</td>
+				</tr>
+			</thead>
+			<tbody class="main">
+				<tr></tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="box">
+			<div id="pTop">是否删除</div>
+			<a class="del" href="##">删除</a><a class="nodel" href="##">取消</a>
+			
+		</div>
+</body>
+</html>
+<script src="../js/shop.js"></script>
